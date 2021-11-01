@@ -12,10 +12,33 @@ These may not follow the same level of difficulty compared to the real thing, bu
 - Take care of style guide
 - Take care of the naming of classes, fields, variables, files, etc.
 
-## Keep in mind
+## Exercises
 
-- You can use any resource online, but **please work individually**
 
-- **Don't just copy-paste** your answers and solutions,
-  use your own words instead
+### Diagonal Matrix
 
+Create a function diagonalMatrix that takes a matrix as a parameter and returns the diagonal of that matrix. The original matrix should remain the same.
+
+Write 1 unit test case.
+
+#### Example 1
+
+Input
+
+```text
+[
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
+```
+
+Output
+
+```text
+[
+  [1, 0, 0],
+  [0, 5, 0],
+  [0, 0, 9]
+]
+```
