@@ -85,9 +85,9 @@ Create a parent class where it's necessary for them.
 
 - A cookie has a `type` and `bakingTime`
   - there are three types of Christmas cookies: `GingerBread`, `SnickerDoodle`, and `ChocoChip`
-  - the baking time for the gingerbread cookies is *3* hours
-  - the baking time for the snickerdoodle cookies is *1* hours
-  - the baking time for the chocochip cookies is *2* hours
+  - the baking time for the gingerbread cookies is **3** hours
+  - the baking time for the snickerdoodle cookies is **1** hours
+  - the baking time for the chocochip cookies is **2** hours
  
 
 #### Kid
