@@ -45,6 +45,7 @@ Output
 ]
 ```
 
+
 ### Twelve Days of Christmas
 
 Write a method `writeLyrics` which can read and parse a file containing the wrong lyrics of the song 
@@ -67,3 +68,52 @@ Rules of Ordinal Suffixes in this case:
 If the file is not found, it should write the following to the console: `File not found: `*`filename`*
 
 [The file can be found here.](./lyrics.txt)
+
+
+### Christmas cookies yumyum
+
+Your task is to create a program where Santa gets to eat
+cookies made by kids he is visiting during Chritmas Eve.
+
+The program should have a `Santa`, a `Kid`s, `Cookie`s, `GingerBread`, `SnickerDoodle`, and `ChocoChip`classes.
+
+Create a parent class where it's necessary for them.
+
+
+#### Cookie
+
+- A cookie has a `type` and `bakingTime`
+  - there are three types of Christmas cookies: `GingerBread`, `SnickerDoodle`, and `ChocoChip`
+  - the baking time for the gingerbread cookies is *3* hours
+  - the baking time for the snickerdoodle cookies is *1* hours
+  - the baking time for the chocochip cookies is *2* hours
+ 
+
+#### Kid
+
+- A kid has a `name`, `age`, `mood`, `freeTime` and `cookieAmount`
+  - a kid is either happy or sad
+ 
+- New kids can be created by providing the `name`, `age`.
+  Every kid is **happy**,has **4** hours to do whatever they want, and **0**  cookies by default.
+  
+- It has a `bakeCookies` method that takes a `cookieType` as a paramater and makes the Kid bake the sepcified type of cookies of course.
+  - a kid will make cookies if he is *happy* and has enough *freeTime* to bake them 
+  - if the baking went successfully, the method should update the number of cookies by 12
+  - otherwise, it should remain 0
+
+- It has a `play` method that takes away *2 hours* from a kid's free time.
+
+- It has an `introduce` method which returns an information about the kid.
+  For example:
+
+  - `My name is Bob, I am 10 years old. I made 12 cookies for Santa!`
+  - `My name is Alice, I am 12 years old. I don't have cookies for Santa.`
+
+
+#### Santa
+- A santa has a `name`, `age`, `cookieAmount`, `cookieLimit`, and a `listOfKids`
+- 
+- New santa can be created by providing the `name`, `age`.
+  - our santa is on a diet, so his intake of cookies can't be more than 50.
+
