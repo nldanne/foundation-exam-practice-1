@@ -75,7 +75,7 @@ If the file is not found, it should write the following to the console: `File no
 Your task is to create a program where Santa gets to eat
 cookies made by kids he is visiting during Chritmas Eve.
 
-The program should have a `Santa`, a `Kid`s, `Cookie`s, `GingerBread`, `SnickerDoodle`, and `ChocoChip`classes.
+The program should have a `Santa`, a `Kid`, `Cookie`, `GingerBread`, `SnickerDoodle`, and `ChocoChip` classes.
 
 Create a parent class where it's necessary for them.
 
@@ -99,7 +99,7 @@ Create a parent class where it's necessary for them.
   
 - It has a `bakeCookies` method that takes a `cookieType` as a paramater and makes the Kid bake the sepcified type of cookies of course.
   - a kid will make cookies if he is *happy* and has enough *freeTime* to bake them 
-  - if the baking went successfully, the method should update the number of cookies by 12
+  - if the baking went successfully, the method should update the number of cookies by 10
   - otherwise, it should remain 0
 
 - It has a `play` method that takes away *2 hours* from a kid's free time.
@@ -113,7 +113,17 @@ Create a parent class where it's necessary for them.
 
 #### Santa
 - A santa has a `name`, `age`, `cookieAmount`, `cookieLimit`, and a `listOfKids`
-- 
-- New santa can be created by providing the `name`, `age`.
-  - our santa is on a diet, so his intake of cookies can't be more than 50.
 
+- New santa can be created by providing the `name`, `age`.
+  - our santa is on a diet, so his intake of cookies can't be more than **100**
+  - our santa has an empty list of Kids by default.
+
+- It has an `addKid` method that adds new kids to santa's list of Kids
+
+- It has a `visit` method that lets him eat the cookies the kids' made for him, and returns the amount he has eaten.
+
+- It has an `introduce` method which returns an information about santa.
+  For example:
+
+  - `My name is Nicholas, I am 60 years old. I ate 10 cookies, and I can eat much more HOHOHO!`
+  - `My name is Claus, I am 54 years old. I didn't cookies this evening.`
