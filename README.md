@@ -12,6 +12,7 @@ but more so to give you an opportunity to practice your coding skills in a simil
 - All your answers and solutions should go in this repository
 - Take care of style guide
 - Take care of the naming of classes, fields, variables, files, etc.
+- Change the visibility of this repository from Public to Private
 
 ## Exercises
 
