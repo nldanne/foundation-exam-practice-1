@@ -127,4 +127,4 @@ Create a parent class where it's necessary for them.
   For example:
 
   - `My name is Nicholas, I am 60 years old. I ate 10 cookies, and I can eat much more HOHOHO!`
-  - `My name is Claus, I am 54 years old. I didn't cookies this evening.`
+  - `My name is Claus, I am 54 years old. I didn't eat cookies this evening.`
