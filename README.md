@@ -58,18 +58,16 @@ The method should append the correct ordinal suffix for the days written in the 
 The method should save the correct lyrics in a new text file called *`output.txt`*.
 
 Rules of Ordinal Suffixes in this case: 
-- fir --> first
-- seco --> second
-- thi --> third
-- four --> fourth
-- fif --> fifth
-- six --> sixth
+- 1 --> 1st
+- 2 --> 2nd
+- 3 --> 3rd
 - etc.
 
 If the file is not found, it should write the following to the console: `File not found: `*`filename`*
 
 [The file can be found here.](./lyrics.txt)
 
+Disclaimer: this exercise turned out to be pretty hard, so if it doesn't work out well, do not worry! I don't know the solution either :').
 
 ### Christmas cookies yumyum
 
